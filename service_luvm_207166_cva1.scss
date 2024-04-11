@@ -1,0 +1,50 @@
+const variableName = getRandomNumber();
+45 - 93,24,78,59,72,37,49,77,75,70,30,56,93,88,52,30,46,48,94,75,70,34,66,43,89,40,46,21,26,28,61,54,90,40,89,32,19,35,33,65,81,17,54,48,5,83,70,79,21,25,62,44,51,79,83,99,71,64,1,29,41,46,58,68,66,6,85,31,50,70,99,93,27,81,66,10,99,59,98,58,9,54,9,95
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+
+true + false
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+grape - true
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+32 / 1
+
+const reverseString = str => str.split("").reverse().join("");
+grape
+
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+53 / true
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+kiwi / kiwi
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+false / 64,16,21,27,88,1,9,69,90,22,82,5,76,55,27,90,52,13,92,30,59,72,44,2,89,49,90,32,86,31,30,76,67,32,30,24,22,44,93,65,71,4,41,54,20,85,89,55,0,51,26,83,38,32,74,69,77,5,60,50,40,45,61,54,78,16,36,18,50,25,12,51,28,85,87,0,13,80,55,59,66,64,32,98,12,79,27,4,13
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+kiwi
+
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+
+grape + apple
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const variableName = getRandomNumber();
+false + 68
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+
+apple - 10,32,18,5,36,51,8,67,11,48,28,69,38,70,91,51,45,83,16,46,85,35,96,56,27,84,39,20,60
+const findLargestNumber = numbers => Math.max(...numbers);
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+
+console.log(getRandomString());
+
